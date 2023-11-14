@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body data-bs-theme="dark">
+    <div class="container-lg">
+      <h1>Bootstrap Demo - Week 10</h1>
+    <p class="h2">Learning Bootstrap Framework</p>
+
+    <div class="container-fluid">
+      
+    <br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Week 10 Bootstrap Grid Demo</h1>
+
+        </div>
+
+        <!-- VERY GOOD IDEA TO COMMENT ON CLOSING DIVS TO SAY WHAT TAG THEY'RE CLOSING!!!!!!!!!!!!!!!! -->
+
+        <div class="col-md-6 offset-md-6">
+          <ul class="list-unstyled">
+            <p class="h3">Favourite Authors</p>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#kuangSeries">RF Kuang</button>
+            <div class="collapse" id="kuangSeries">
+              <div class="card card-body">
+            <ul>
+              <li class="text-primary-emphasis">The Poppy War</li>
+              <ul>
+                <li class="text-secondary">The Poppy War</li>
+                <li class="text-secondary">The Dragon Republic</li>
+                <li class="text-secondary">The Burning God</li>
+              </ul>
+              <li class="text-primary-emphasis">Babel</li>
+              <li class="text-primary-emphasis">Yellowface</li>
+            </ul>
+            </div>
+            </div>
+            <br>
+            <br>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#eriksonSeries">Steven Erikson</button>
+              <div class="collapse" id="eriksonSeries">
+                <div class="card card-body">
+                  <ul>
+                    <li class="text-primary-emphasis">Malazan Book of the Fallen</li>
+                    <ul>
+                      <li class="text-secondary">Gardens of the Moon</li>
+                      <li class="text-secondary">Deadhouse Gates</li>
+                      <li class="text-secondary">Memories of Ice</li>
+                      <li class="text-secondary">House of Chains</li>
+                      <li class="text-secondary">Midnight Tides</li>
+                      <li class="text-secondary">The Bonehunters</li>
+                      <li class="text-secondary">Reaper's Gale</li>
+                      <li class="text-secondary">Toll the Hounds</li>
+                      <li class="text-secondary">Dust of Dreams</li>
+                      <li class="text-secondary">The Crippled God</li>
+                    </ul>
+                    <li class="text-primary-emphasis">The Kharkanas Trilogy</li>
+                    <ul>
+                      <li class="text-secondary">Forge of Darkness</li>
+                      <li class="text-secondary">Fall of Light</li>
+                      <li class="text-secondary">Walk in Shadow</li>
+                    </ul>
+                    <li class="text-primary-emphasis">Rejoice, A Knife To The Heart</li>
+                    <li class="text-primary-emphasis">Tales of Bauchelain and Korbal Broach</li>
+                  </ul>
+                </div>
+              </div>
+              <br><br>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#jemisinSeries">NK Jemisin</button>
+            <div class="collapse" id="jemisinSeries">
+              <div class="card card-body">
+                <ul>
+                  <li class="text-primary-emphasis">The Inheritance Trilogy</li>
+                  <ul>
+                    <li class="text-secondary">The Hundred Thousand Kingdoms</li>
+                    <li class="text-secondary">The Broken Kingdoms</li>
+                    <li class="text-secondary">The Kingom of Gods</li>
+                  </ul>
+                  <li class="text-primary-emphasis">Dreamblood Buology</li>
+                  <ul>
+                    <li class="text-secondary">The Killing Moon</li>
+                    <li class="text-secondary">The Shadowed Sun</li>
+                  </ul>
+                  <li class="text-primary-emphasis">The Broken Earth Trilogy</li>
+                  <ul>
+                    <li class="text-secondary">The Fifth Season</li>
+                    <li class="text-secondary">The Obelisk Gate</li>
+                    <li class="text-secondary">The Stone Sky</li>
+                  </ul>
+                  <li class="text-primary-emphasis">The City Duology</li>
+                  <ul>
+                    <li class="text-secondary">The City We Became</li>
+                    <li class="text-secondary">The World We Make</li>
+                  </ul>
+                  
+                </ul>
+              </div>
+
+            </div>
+
+            <br><br>
+
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#dickinsonSeries">Seth Dickinson</button>
+            <div class="collapse" id="dickinsonSeries">
+              <div class="card card-body">
+                <ul>
+                  <li class="text-primary-emphasis">The Masquerade Quartet</li>
+                  <ul>
+                    <li class="text-secondary">The Traitor Baru Cormorant</li>
+                    <li class="text-secondary">The Monster Baru Cormorant</li>
+                    <li class="text-secondary">The Tyrant Baru Cormorant</li>
+                    <li class="text-secondary">The Martyr Baru Cormorant</li>
+                  </ul>
+                  <li class="text-primary-emphasis">Exordia</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <div class="col-md-5">
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th>SKU</th>
+                <th>Title</th>
+                <th>Price</th>
+              </tr>
+      
+            </thead>
+            <tbody>
+              <tr>
+                <td>HT789</td>
+                <td>Coffee Cups</td>
+                <td>&dollar; 15</td>
+              </tr>
+              <tr>
+                <td>HU896</td>
+                <td>Key Chains</td>
+                <td>&dollar; 10</td>
+              </tr>
+      
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Have some confusing divs since added the grid at the end -->
+
+    <div class="col-md-5 offset-md-2">
+      <img class="img-fluid img-thumbnail w-100 p-3" src="https://placebear.com/600/600" alt="bear on a rock in a river">
+      <button class="btn btn-primary">Hello!</button>
+
+
+    </div>
+
+
+
+
+
+    <br><br>
+
+    <div class="container">
+      <!-- This didn't work for some reasom? -->
+      <p>Author Series Rankings</p>
+      <div class="row s-rank"> S Rank
+        <div class="column">Malazan Book of the Fallen</div>
+        <div class="column">Broken Earth</div>
+        <div class="column">The Masquerade Trilogy</div>
+      </div>
+
+      <div class="row a-rank"> A Rank
+        <div class="column">Kharkanas Trilogy</div>
+        <div class="column">Babel, Or The Necessity of Violence</div>
+        <div class="column"> Exordia</div>
+
+      </div>
+
+      <div class="row b-rank"> B Rank
+        <div class="column">The Poppy War</div>
+        <div class="column">Yellowface</div>
+        <div class="column">Dreamblood Duology</div>
+
+      </div>
+
+      <div class="row c-rank"> C Rank
+        <div class="column">The City Duology</div>
+        <div class="column">Rejoice, A Knife to the Heart</div>
+        <div class="column">The Tales of Bauchelain and Korbal Broach</div>
+
+      </div>
+
+      <div class="row d-rank">
+        <div class="column">The Inheritance Trilogy</div>
+        <div class="column"></div>
+        <div class="column"></div>
+      </div>
+
+    </div>
+
+    
+
+    <br><br>
+
+    <div class="col-md-5"></div>
+
+    
+
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    </div>
+    
+  </body>
+</html>
+<!----->
