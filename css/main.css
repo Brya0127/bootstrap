@@ -1,2 +1,36 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
+.banner {
+  background: white url(../images/main-banner.jpg) no-repeat center;
+  background-size: cover;
+}
+
+:root {
+  --bs-primary: #c78c06;
+  --bs-secondary: #ffe6ac;
+  --bs-primary-rgb: 199, 140, 6;
+  --bs-secondary-rgb: 255, 230,172;
+  --bs-primmary-text-emphasis: #735102;
+  --bs-secondary-text-emphasis: #ab986c;
+  --bs-primary-bg-subtle: #d99e14;
+  --bs-secondary-bg-sublte: #fbebc4;
+  --bs-primary-border-subtle: #d99e14;
+  --bs-secondary-border-butble: #fbebc4;
+}
+.btn-primary,
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-secondary);
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-focus-shadow-rgb: var(--bs-primary-bg-subtle);
+    --bs-btn-active-bg: var(--bs-primary-bg-subtle);
+    --bs-btn-active-border-color: var(--bs-primary-bg-subtle);
+    --bs-btn-disabled-bg: var(--bs-primary-bg-subtle);
+    --bs-btn-disabled-border-color: var(--bs-primary-bg-subtle);
+}
+
+.btn-primary- {
+  --bs-btn-bg: var(--bs-primary);
+}
